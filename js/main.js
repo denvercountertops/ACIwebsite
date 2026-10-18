@@ -153,7 +153,7 @@ const MAX_UPLOAD_BYTES = 10 * 1024 * 1024;
 
     const sendLead = async (payload) => {
       const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), 20000);
+      const timer = setTimeout(() => controller.abort(), 45000);
       try {
         const res = await fetch(LEAD_ENDPOINT, {
           method: "POST",
