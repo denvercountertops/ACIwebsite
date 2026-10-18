@@ -474,7 +474,9 @@
           </dl>
         </div>
 
-        <form class="contact-form reveal" id="consultation-form" action="#" method="post" enctype="multipart/form-data" novalidate data-contact-form>
+        <form class="contact-form reveal" id="consultation-form" name="consultation" method="post" enctype="multipart/form-data" novalidate data-netlify="true" netlify-honeypot="_honey" data-contact-form>
+          <input type="hidden" name="form-name" value="consultation">
+          <input type="hidden" name="page" value="">
           <div class="form-summary" tabindex="-1" role="alert" hidden data-form-summary></div>
           <div class="hp" aria-hidden="true"><label for="f-honey">Leave this field empty</label><input id="f-honey" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
 
@@ -568,7 +570,7 @@
           <div class="field">
             <label for="f-upload">Upload a photo, plan or drawing <span class="optional">(optional)</span></label>
             <input id="f-upload" name="upload" type="file" accept="image/*,.pdf" aria-describedby="f-upload-hint f-upload-error">
-            <p class="field-hint" id="f-upload-hint">JPG, PNG or PDF, up to 10 MB.</p>
+            <p class="field-hint" id="f-upload-hint">JPG, PNG or PDF, up to 7 MB.</p>
             <p class="field-error" id="f-upload-error" hidden></p>
           </div>
 
