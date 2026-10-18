@@ -1,0 +1,12 @@
+# Private notes and working files (never publish)
+aci-website-brief.md
+edited/
+.claude/
+
+# Generated copy of the site for uploading to Netlify
+publish/
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
