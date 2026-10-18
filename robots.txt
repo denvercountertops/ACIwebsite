@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fantastic-cucurucho-6a880a.netlify.app/sitemap.xml
